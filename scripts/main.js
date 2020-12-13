@@ -44,7 +44,7 @@ function ValidateMechanic(){
 
     if (result){
         document.getElementById('dvAlert').style.display="none";
-        window.location = "/views/search.html";
+        window.location.href = "/views/search.html";
     } else {        
         document.getElementById('dvAlert').style.display="block";
         document.getElementById("msError").innerHTML = "Mecánico no se encuentra verificado";
@@ -133,5 +133,5 @@ function Register(){
 }
 
 function GoToRegister(){
-    window.location = "/views/register.html";
+    window.location.href = "/views/register.html";
 }
